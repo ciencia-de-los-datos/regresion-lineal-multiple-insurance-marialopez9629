@@ -63,15 +63,6 @@ def pregunta_03():
     Especificación del pipeline y entrenamiento
     -------------------------------------------------------------------------------------
     """
-
-    # Importe make_column_selector
-    # Importe make_column_transformer
-    # Importe SelectKBest
-    # Importe f_regression
-    # Importe LinearRegression
-    # Importe GridSearchCV
-    # Importe Pipeline
-    # Importe OneHotEncoder
     from sklearn.compose import make_column_selector
     from sklearn.compose import make_column_transformer
     from sklearn.feature_selection import SelectKBest
@@ -80,6 +71,7 @@ def pregunta_03():
     from sklearn.model_selection import GridSearchCV
     from sklearn.pipeline import Pipeline
     from sklearn.preprocessing import OneHotEncoder
+    import numpy as np
 
     pipeline = Pipeline(
         steps=[
